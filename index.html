@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Word Manipulator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="Favicon/Word Manipulator.png" type="image/x-icon">
+        </head>
+    <body>
+      <div class="container">
+      <h1>Word Manipulator</h1>
+      <div class="para"><p id="p1">INPUT</p> <p id="p2">OUTPUT</p></div>
+      <textarea id="inputText" rows="10" placeholder="Enter the text here..."></textarea><textarea id="outputText" rows="10" readonly></textarea>
+      <div class="button">
+        <button id="upper" onclick="toUpperCase()">UPPERCASE</button>
+        <button id="lower" onclick="toLowerCase()">LOWERCASE</button>
+        <button id="reverse" onclick="reverseText()">REVERSE</button>
+        <button id="space" onclick="removeSpace()">REMOVE SPACES</button>
+        <button id="digit" onclick="removeDigit()">REMOVE DIGITS</button>
+        <button id="special" onclick="removeSpecial()">REMOVE SPECIAL CHARACTERS</button>
+      </div>  
+      
+    </div>
+        <script src="script.js"></script>
+    </body>
+    <footer><span>Made with 💖 by <a href="https://github.com/GaurangPatel13">Gaurang Patel</a>.</span></footer>
+</html>
